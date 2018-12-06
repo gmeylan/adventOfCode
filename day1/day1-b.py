@@ -14,4 +14,5 @@ while True and not_reached:
                 if sum in frequencies:
                     print(sum)
                     not_reached = False
+                    print(len(frequencies))
                 frequencies.append(sum)
